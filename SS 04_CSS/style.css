@@ -1,0 +1,33 @@
+/* 1. Element selector */
+.khuon{
+    width: 175px; 
+    height: 30px;
+}
+/* 2. Class selector */
+.khuon {
+    width: 600px;
+    height: 400px;
+    border: thin solid #00f;
+    padding: 20px;
+    margin: 50px;
+}
+/* 3. ID selector */
+#txtDisplay{
+    width: 165px; 
+    height: 35px;
+    color: white;
+    font-size: 15pt;
+    text-align: center;
+    background-color:darkgray;
+}
+
+#btnNum{
+    width: 40px;
+    height: 30px;
+}
+
+/* 4. Universal selector */
+*{
+    font-family: Verdana;
+    box-sizing: border-box;
+}
